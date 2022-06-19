@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="profile container">
+        <!--Theme-->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="/media/perfil/perfil.png" alt="">
+                    </div>
+                </div>
+                <h2 class="profile__name">
+                    Lucia Cabrera
+                </h2>
+                <h3 class="profile__profession">WEB DEVELOPER</h3>
+
+                <ul class="profile__social">
+                    <a href="www.instagram.com"  target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                
+                    <a href="https://www.linkedin.com/in/blancaluciacabrera/" target="_blank"class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                
+                    <a href="https://github.com/cabrera-blanca" target="_blank"class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                
+                </ul>
+            </div>
+
+            <!--<div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">7</h3>
+                    <p class="profile__info-description">Years of <br> work</p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+124</h3>
+                    <p class="profile__info-description">Completed <br> Proyects</p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">96</h3>
+                    <p class="profile__info-description">Satisfied <br> customers</p>
+                </div>
+            </div>--> 
+
+            <div class="profile__buttons">
+                <a href="/media/CV-Cabrera Lucia.pdf" class="button" download="">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=541137763761&text=Hola, me gustó tu portfolio!✨" target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="mailto:blanca.cabrera@hotmail.com?Subject=Hola!%20me%20gustó%20tu%20Portfolio!" target="_blank" class="button button__small button__gray">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Main-->
+    <main class="main">
+        <section class="filters container">
+            <!--filters tabs-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-activate" data-target="#projects">
+                    Projects
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+            
+            <div class="filters__sections">
+                <!--Proyects-->
+                    <div class="projects__content filters__activate grid" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="media/proyectos/calculadora.png" class="projects__img" alt="">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web  </span>
+                                    <h3 class="projects__title">
+                                        Calculadora
+                                    </h3>
+                                    <a href="https://cabrera-blanca.github.io/Calculadora/" target="_blank" class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="media/proyectos/encriptador.png" class="projects__img" alt="">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">  Web</span>
+                                    <h3 class="projects__title">
+                                        Encriptador de texto
+                                    </h3>
+                                    <a href="https://cabrera-blanca.github.io/Challenge-Oracle-ONE/"target="_blank" class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="media/proyectos/paginaweb.png" class="projects__img" alt="">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">
+                                    Pagina web | Productor Musical
+                                    </h3>
+                                    <a href="https://cabrera-blanca.github.io/CRISSA/" target="_blank"class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="media/proyectos/clima.png" class="projects__img" alt="">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">
+                                    App del Clima
+                                    </h3>
+                                    <a href="https://cabrera-blanca.github.io/Clima/" target="_blank" class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="media/proyectos/reloj.png" class="projects__img" alt="">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">
+                                    Reloj Digital
+                                    </h3>
+                                    <a href="https://cabrera-blanca.github.io/Digital-Clock/" target="_blank" class="projects_button button button-small">
+                                        <i class="ri-link"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </article>
+                        
+                    </div>
+                <!--Skills-->
+                <div class="skills__content grid  " data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            IT NKOWLEGE
+                        </h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level"> ADVANCED</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">ADVANCED</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">JAVASCRIPT</h3>
+                                        <span class="skills__level">INTERMIDIATE</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">JAVA</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">REACT</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">BOOTSRAP</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">SASS</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            HARD SKILLS
+                        </h3>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">INGLES</h3>
+                                        <span class="skills__level"> ADVANCED </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">ITALIANO</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">MICROSOFT OFFICE</h3>
+                                        <span class="skills__level">ADVANCED</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">DATA ANALITICS</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">UX/UI DESIGN</h3>
+                                        <span class="skills__level">BASIC</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">REPORTING</h3>
+                                        <span class="skills__level">INTERMIDIATE</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">CRM PLATFORMS</h3>
+                                        <span class="skills__level">ADVANCED</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">TROUBLESHOOTING</h3>
+                                        <span class="skills__level">INTERMIDIATE</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Lucia Cabrera. All rights reserved
+        </span>
+    </footer>
+
+    <!--JS-->
+    <script src="/js/scrollreveal.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
